@@ -22,8 +22,7 @@ This product RGB Matrix P2.5-64x32 is on-board 2048 full-color display LEDs with
 |POWER SUPPLY|5V/2A|
 |POWER PORT|VH4 header input|
 # Usage
-# Note: The internal RGB definition of this model screen is actually RBG, so when using the standard demo code, you need to wiring according to the following table.<br> 
-provided two solutions to solve this problem:<br> 
+# Note: The internal RGB definition of this screen is actually RBG, so we provide two solutions: the first solution is to use the standard demo codes on the Internet according to the wiring definition we provided; the second solution is the normal wiring, and then use our modified demo codes. Both solutions can ensure that the screen is displayed normally.For the details of the two solutions, please refer to the contents of chapters 2.1 and 2.2 respectively.<br>  
 ## 2.1、RGB-Matrix-P2.5-64x32-wiring-as-we-provided
 ### 2.1.1、Usage of demo for Raspberry Pi
 This product is mainly used with the main-board of Raspberry Pi, with HUB75 for signal input and output of dot matrix screen. <br>                      
