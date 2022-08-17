@@ -88,7 +88,7 @@ _Usage of Demo：_<br>
 After wiring the power cable to the display panel and connecting the signal cable according to Table 2-3, access the Arduino_Mega_RGB_Matrix_64x32 folder and double-click to open the Arduino_Mega_RGB_Matrix_64x32.ino file. Then click the Verify button, and then click the Upload button. The demo code realizes the function of displaying text and pictures in a loop<br>    
 
 ## 2.2、RGB-Matrix-P2.5-64x32-wiring-as-normal
-If the wiring is normal according to the following 3 tables, you can use the modified code provided by us, the demo codes of Rasperry Pi Pico and Arduino Mega is in the folder "RGB-Matrix-P2.5-64x32-wiring-as-normal", And  The demo codes for Raspberry Pi platform we do not provide directly, but provide a way to modify the codes.<br>
+If the wiring is normal according to the following 3 tables, you can use the modified code provided by us, the demo codes of Rasperry Pi Pico and Arduino Mega are in the folder "RGB-Matrix-P2.5-64x32-wiring-as-normal", And  The demo codes for Raspberry Pi platform we do not provide directly, but provide a way to modify the codes.<br>
 ### 2.2.1、Usage of demo for Raspberry Pi
 The wiring pins definitions of signal input for Raspberry Pi and RGB LED Matrix Panel as following:<br> 
 |Label	|Pins Description	|BCM number |Pins Function	|Label	|Pins Description      |BCM number   |Pins Function|
