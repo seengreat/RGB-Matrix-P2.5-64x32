@@ -102,7 +102,7 @@ The wiring pins definitions of signal input for Raspberry Pi and RGB LED Matri
 |CLK	|Clock input	|17	       |P0	                |LAT	|Latch pin	                |4	|P7|
 |OE	|Output enable	|18	       |P1	                |GND	|Ground	                |GND	|GND|
 
-Modify lines 45 to 49 in the rpi-rgb-led-matrix/lib/hardware-mapping.c file to:<br> 
+Modify lines 44 to 49 in the rpi-rgb-led-matrix/lib/hardware-mapping.c file to:<br> 
     .p0_r1         = GPIO_BIT(11),  /* masks: SPI0_SCKL  */<br> 
     .p0_g1         = GPIO_BIT(7),  /* masks: SPI0_CE1   */<br> 
     .p0_b1         = GPIO_BIT(27),   /* Not on RPi1, Rev1; use "regular-pi1" instead */<br> 
